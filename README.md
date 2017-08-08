@@ -1,3 +1,6 @@
+### Status
+[![Build Status](https://travis-ci.org/aelor/ruby-pubg.svg?branch=master)](https://travis-ci.org/aelor/ruby-pubg)
+
 # ruby-pubg
 
 A ruby wrapper for the PLAYERUNKNOWN'S BATTLEGROUNDS stats API from https://pubgtracker.com
