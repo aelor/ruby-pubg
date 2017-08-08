@@ -1,8 +1,7 @@
-# Ruby::Pubg
+<<<<<<< HEAD
+# ruby-pubg
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/ruby/pubg`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+A ruby wrapper for the PLAYERUNKNOWN'S BATTLEGROUNDS stats API from https://pubgtracker.com
 
 ## Installation
 
@@ -22,6 +21,21 @@ Or install it yourself as:
 
 ## Usage
 
+###Obtain API Key
+
+Create an account at https://pubgtracker.com/site-api and request an API Key.
+
+```ruby
+#to initialize the client
+client = Ruby::Pubg::Client.new('your-api-key-here')
+
+#find nick name of user from steamid
+client.find_name_by_steam_id('STEAMIDGOESHERE')
+
+#find stats with the nick name
+client.find_by_name('NAMEGOESHERE')
+
+```
 TODO: Write usage instructions here
 
 ## Development
@@ -32,10 +46,9 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/ruby-pubg. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/aelor/ruby-pubg. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
 
 The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
