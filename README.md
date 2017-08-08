@@ -1,5 +1,6 @@
 ### Status
 [![Build Status](https://travis-ci.org/aelor/ruby-pubg.svg?branch=master)](https://travis-ci.org/aelor/ruby-pubg)
+[![Gem Version](https://badge.fury.io/rb/ruby-pubg.svg)](https://badge.fury.io/rb/ruby-pubg)
 
 # ruby-pubg
 
