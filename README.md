@@ -29,7 +29,7 @@ Create an account at https://pubgtracker.com/site-api and request an API Key.
 
 ```ruby
 #to initialize the client
-client = Ruby::Pubg::Client.new('your-api-key-here')
+client = Ruby::Pubg::Client.new('YOUR-API-KEY-HERE')
 ```
 #### Start making calls
 ```ruby
