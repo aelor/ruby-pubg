@@ -4,7 +4,8 @@
 
 # ruby-pubg
 
-A ruby wrapper for the PLAYERUNKNOWN'S BATTLEGROUNDS stats API from https://pubgtracker.com
+A ruby wrapper for the PLAYERUNKNOWN'S BATTLEGROUNDS stats API from https://pubgtracker.com.
+Get details about the gem at https://rubygems.org/gems/ruby-pubg
 
 ## Installation
 
